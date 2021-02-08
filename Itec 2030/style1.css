@@ -59,6 +59,7 @@
     background: #eee;
     overflow-x: hidden;
     padding: 8px 0;
+    margin-top:120px;
   }
   
   .sidenav a {
@@ -82,4 +83,7 @@
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+  .description{
+    margin-left: 140px
   }
