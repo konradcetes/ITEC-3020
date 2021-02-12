@@ -243,19 +243,18 @@ body {
 }
 
 /*location of sidebar*/
-
 .sidenav {
   width: 130px;
-  position: absolute;
+  position:absolute;
   z-index: 1;
-  top: auto;
+  top: 200px;
   left: 10px;
-  background: #eee;
+  background: white;
   overflow-x: hidden;
   padding: 8px 0;
 }
 
-.sidenav a {
+.sidenav img {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -263,9 +262,10 @@ body {
   display: block;
 }
 
-.sidenav a:hover {
+.sidenav img:hover {
   color: #064579;
 }
+
 
 .main {
   margin-left: 475px;
@@ -299,4 +299,36 @@ body {
   .sidenav a {
     font-size: 18px;
   }
+  .navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.navbar .cart {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
 }
