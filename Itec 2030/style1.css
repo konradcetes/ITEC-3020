@@ -2,7 +2,6 @@ body {
   background-color: #4874a7;
 }
 
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
@@ -68,8 +67,8 @@ body {
 .item12 {
   grid-column: 5/ span 1;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: -1100px;
+  margin-right: -1500px;
+  margin-top: -650px;
   margin-bottom: 500px;
 }
 
@@ -260,9 +259,10 @@ body {
 }
 
 /*location of sidebar*/
+
 .sidenav {
   width: 130px;
-  position:absolute;
+  position: absolute;
   z-index: 1;
   top: 200px;
   left: 10px;
@@ -283,7 +283,6 @@ body {
   color: #064579;
 }
 
-
 .main {
   margin-left: 475px;
   /* Same width as the sidebar + left position in px */
@@ -292,28 +291,28 @@ body {
   padding: 0px 10px;
 }
 
-.img{
+.img {
   position: absolute;
   margin-left: ;
 }
 
-.price{
+.price {
   margin-top: ;
   margin-left: 1100px;
   color: #ce1818;
 }
 
-.desc{
+.desc {
   margin-left: 1100px;
   margin-top: 200px;
   font-size: 20px;
 }
 
+.sidenav a {
+  font-size: 18px;
+}
 
-  .sidenav a {
-    font-size: 18px;
-  }
-  .navbar {
+.navbar {
   width: 100%;
   background-color: #003366;
   overflow: auto;
@@ -334,6 +333,7 @@ body {
 .active {
   background-color: #001a33;
 }
+
 .navbar .cart {
   float: right;
 }
@@ -344,20 +344,20 @@ body {
     display: block;
   }
 }
+
 /* dropdown for the quantity selector*/
+
 .dropbtn {
   background-color: #001a33;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
-
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
-
 }
 
 .dropdown-content {
@@ -365,7 +365,7 @@ body {
   position: absolute;
   background-color: #003366;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -376,9 +376,16 @@ body {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
 }
