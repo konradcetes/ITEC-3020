@@ -28,6 +28,7 @@ body {
 
 .item0 {
   grid-column: 2 / span 2;
+  margin-left: -600px;
 }
 
 /*SuggestItem left*/
@@ -41,9 +42,25 @@ body {
   font-size: 30px;
 }
 
-.suItem1{
-  margin-left: -500pX;
+/*HP Elite*/
+
+.suItem1 {
+  margin-left: -475pX;
   margin-top: -1100px;
+}
+
+/*Alienware R4*/
+
+.suItem3 {
+  margin-top: -500px;
+  margin-right: -100px;
+  margin-left: 1550px;
+}
+
+/*Dell XPS*/
+
+.suItem4 {
+  margin-left: 1500px;
 }
 
 /*SuggestedItem right*/
